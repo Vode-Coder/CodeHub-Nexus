@@ -1,0 +1,116 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="flexbox_a.css">
+</head>
+<body>
+    <header id="title">
+        <h1>Flexbox Assignment</h1>
+    </header>
+    <table id="Info">
+        <tr>
+            <th>Name :-</th>
+            <td>Vedant Pareek </td>
+        </tr>
+    </table>
+    <div class="flex">
+        <h1>1. Display Flex</h1>
+        <p>This enables the Flexbox layout on a container</p>
+        <div class="flex-container">
+            <div id="B">Box 1</div>
+            <div id="B">Box 2</div>
+            <div id="B">Box 3</div>
+        </div>
+        <h1>2. Flex Direction</h1>
+        <p>Direction of the main axis (row by default)</p>
+        <div class="flex-column">
+            <div id="B">Box 1</div>
+            <div id="B">Box 2</div>
+            <div id="B">Box 3</div>
+        </div>
+        <h1>3. Justify content</h1>
+        <p>Control alignment along the main axis (horizontal if flex-directoin is row)</p>
+        <div class="justify1">
+            <div id="B">Box 1</div>
+            <div id="B">Box 2</div>
+        </div>
+        <div class="justify2">
+            <div id="B">Box 3</div>
+            <div id="B">Box 4</div>
+        </div>
+        <div class="Align">
+            <h2>4. Align Items</h2>
+            <p>Control alignment along the cross axis (vertical if flex-direction is row)</p>
+            <div class="align">
+                <div id="B">top</div>
+                <div id="B" style="height: 150px;">Tall</div>
+                <div id="B">short</div>
+        </div>
+        <div class="flex-wrap">
+            <h2>5. Flex Wrap</h2>
+            <p>Allows items to wrap into multiple lines</p>
+            <div class="wrap">
+                <div id="B" style="width: 200px;">Box 1</div>
+                <div id="B" style="width: 200px;">Box 2</div>
+                <div id="B" style="width: 200px;">Box 3</div>
+                <div id="B" style="width: 200px;">Box 4</div>
+            </div>
+        </div>
+        <div class="Gap">
+            <h2>6. Gap</h2>
+            <p>Space between items (row & column gap)</p>
+            <div class="gap">
+                <div id="B">Box 1</div>
+                <div id="B">Box 2</div>
+                <div id="B">Box 3</div>
+            </div>
+        </div>
+        <div class="Grow">
+            <h2>7.Flex Grow</h2>
+            <p>Define how much a flex item will grow relative to other</p>
+            <div class="grow">
+                <div id="B" style="flex-grow: 1;">Grow 1</div>
+                <div id="B" style="flex-grow: 2;">Grow 2</div>
+                <div id="B">No Grow</div>
+            </div>
+
+        </div>
+        <div class="Shrink">
+            <h2>8.Flex Shrink</h2>
+            <p>Define how a flex item will shrink if necessary</p>
+            <div class="shrink">
+                <div id="B" style="flex-shrink: 1;">Shrink 1</div>
+                <div id="B">No Shrink</div>
+            </div>
+        </div>
+        <div class="Basis">
+            <h2>9.Flex Basis</h2>
+            <p>Set the initial size of a flex item before space is distributed</p>
+            <div class="basis">
+                <div id="B" style="flex-basis: 150px;">Basis 150px</div>
+                <div id="B" style="flex-basis: auto;">Basis auto </div>
+            </div>
+        </div>
+        <div class="Order">
+            <h2>10.Order</h2>
+            <p>Control the order in which items appear (visually)</p>
+            <div class="order">
+                <div id="B">Default</div>
+                <div id="B" style="order: 1;">Order 1</div>
+                <div id="B" style="order: 2;">Order 2</div>
+            </div>
+        </div>
+        <div class="Align-self">
+            <h2>11.Align Self</h2>
+            <p>Override the align-items for individual items</p>
+            <div class="align-self">
+                <div id="B" style="align-self: flex-start;">Top</div>
+                <div id="B" style="align-self: center;">Center</div>
+                <div id="B" style="align-self: flex-end;">Bottom</div>
+            </div>
+    </div>
+</body>
+</html>

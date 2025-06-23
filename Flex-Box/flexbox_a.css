@@ -1,0 +1,136 @@
+*{
+    box-sizing: border-box;
+    list-style: none;
+    line-height: 90%;
+    gap: 1px;
+}
+body{
+    margin : 0;
+    padding: 22px 14px 0px 0px;
+}
+#title{
+    text-align: center;
+    font-size: medium;
+    font-family: Arial, sans-serif;
+}
+#Info{
+    display: inline-block;
+    border: 2px solid black;
+    border-style: dashed;
+    padding: 8px;
+    margin: 10px;
+    background-color: lightgray;
+}
+#B{
+    border: 2px solid black;
+    background-color: #add8e6;
+    margin: 10px;
+    padding: 20px;
+    font-size: 20px;
+    text-align: center;
+
+}
+h1{
+    font-size: 24px;
+}
+.flex-container{
+    display: flex;
+    gap: 7.5pt;
+    border: 1px solid black;
+    flex-direction: row;
+    background-color: lightgray;
+}
+/* .flex-container > div{
+    background-color: #add8e6;
+    margin: 10px;
+    padding: 20px;
+    font-size: 20px;
+    text-align: center;
+} */
+
+.flex-column{
+    display: flex;
+    flex-direction: column;
+    background-color: lightgray;
+}
+
+/* .flex-column > div{
+    background-color: #add8e6;
+    margin: 10px;
+    padding: 20px;
+    font-size: 20px;
+    text-align: center;
+    line-height: 1.5;
+} */
+
+.justify1{
+    border: 1px solid black;
+    display: flex;
+    justify-content: center;
+    background-color: lightgray;
+}
+/* .justify1 > div{
+    background-color: #add8e6;
+    margin: 10px;
+    padding: 20px;
+    font-size: 20px;
+    text-align: center;
+} */
+
+.justify2{
+    border: 1px solid black;
+    display: flex;
+    justify-content:space-around;
+    background-color: lightgray;
+}
+
+/* .justify2 > div{
+    margin-left: 10px;
+    margin-right: 10px;
+} */
+
+.align{
+    border: 1px solid black;
+    display: flex;
+    align-items: center;
+    height: 200px;
+    background-color: lightgray;
+}
+.wrap{
+    border: 1px solid black;
+    display: flex;
+    flex-wrap: wrap;
+    background-color: lightgray;
+}
+.gap{
+    display: flex;
+    gap: 10px;
+    background-color: lightgray;
+}
+.grow{
+    display: flex;
+    flex-grow: 1;
+    background-color: lightgray;
+}
+.shrink{
+    display: flex;
+    flex-shrink: 1;
+    background-color: lightgray;
+}
+.basis{
+    display: flex;
+    flex-basis: 100px;
+    background-color: lightgray;
+}
+.order{
+    display: flex;
+    flex-direction: row;
+    border: 1px solid black;
+    background-color: lightgray;
+}
+.align-self{
+    display: flex;
+    align-items: center;
+    height: 200px;
+    background-color: lightgray;
+}
